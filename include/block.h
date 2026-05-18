@@ -16,6 +16,6 @@ int make_memory_request(Block *blk);
 
 
 
-int del_block();
+int del_block(Block *blk);
 #endif
 
