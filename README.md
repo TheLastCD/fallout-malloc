@@ -14,3 +14,8 @@ call malloc once requesting a big amount of memory
 wrap that allocation in a framework of handlers
 expose methods to request, lock, delete & resize memory
 Squash the memory periodically to ensure you've always got space
+
+# Other Features
+## memory visualisation tool
+the API can expose a socket which the test_viz.py can monitor and make a graph showing the layout of memory (WIP)
+
